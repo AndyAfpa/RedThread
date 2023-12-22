@@ -1,0 +1,25 @@
+.container-fluid{
+  background-color: #f91763
+}
+
+.navbar-toggler{
+  background-color: rgb(255, 251, 238);
+}
+
+.nav-item{
+  text-align: center;
+}
+
+.nav-link{
+  color: rgb(255, 251, 238);
+}
+
+.parallax{
+background-attachment: fixed; /* Fixe l'image pendant le scroll */
+background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+background-position: center; /* Centre la position de l'image */
+background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+background-image: url("Parallax/4385652.jpg");
+height: 100vh; /* Prendra 100% de la hauteur du viewport, et donc de l'écran */
+
+}
