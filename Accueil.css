@@ -10,16 +10,103 @@
   text-align: center;
 }
 
+
 .nav-link{
   color: rgb(255, 251, 238);
 }
 
-.parallax{
-background-attachment: fixed; /* Fixe l'image pendant le scroll */
-background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
-background-position: center; /* Centre la position de l'image */
-background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
-background-image: url("Parallax/4385652.jpg");
-height: 100vh; /* Prendra 100% de la hauteur du viewport, et donc de l'écran */
+.parallax {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  
+}
 
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('Parallax/4385652.jpg'); /* Remplacez par le chemin de votre image de parallaxe */
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#categorie {
+  /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
+  opacity: 1;
+  border-radius: 18%;
+  border: solid #f91763;
+  margin-top: 5%;
+  padding: 0;
+
+}
+
+#categoriemd {
+  /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
+  opacity: 1;
+  border-radius: 18%;
+  border: solid #f91763;
+  margin-top: 5%;
+  padding: 0;
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+#categorielg {
+  /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
+  opacity: 1;
+  border-radius: 18%;
+  border: solid #f91763;
+  margin-top: 0%;
+  padding: 0;
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+#plat{
+opacity: 1;
+border-radius: 18%;
+border: solid #f91763;
+margin-top: 5%;
+padding: 0;
+margin-left: 0%;
+margin-right: 8%;
+}
+
+.couleurtexte{
+  color: white;
+  background-color: #f91763;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  height: 5%;
+}
+
+.image-title{
+  position: absolute;
+  top: 24%;
+  left: 15%;
+  color: white;
+  background-color: #f91763;;
 }
