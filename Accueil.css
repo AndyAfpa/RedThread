@@ -1,5 +1,10 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
 .container-fluid{
-  background-color: #f91763
+  background-color: #f91763;
 }
 
 .navbar-toggler{
@@ -44,6 +49,7 @@
   display: flex;
   justify-content: center;
   height: 100%;
+
 }
 
 .text-center {
@@ -60,38 +66,14 @@
 
 }
 
-#categoriemd {
-  /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
-  opacity: 1;
-  border-radius: 18%;
-  border: solid #f91763;
-  margin-top: 5%;
-  padding: 0;
-  margin-left: 0%;
-  margin-right: 0%;
 
-}
 
-#categorielg {
-  /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
-  opacity: 1;
-  border-radius: 18%;
-  border: solid #f91763;
-  margin-top: 0%;
-  padding: 0;
-  margin-left: 0%;
-  margin-right: 0%;
-
-}
-
-#plat{
+#plats{
 opacity: 1;
 border-radius: 18%;
 border: solid #f91763;
-margin-top: 5%;
 padding: 0;
-margin-left: 0%;
-margin-right: 8%;
+
 }
 
 .couleurtexte{
@@ -103,10 +85,54 @@ margin-right: 8%;
   height: 5%;
 }
 
-.image-title{
-  position: absolute;
-  top: 24%;
-  left: 15%;
-  color: white;
-  background-color: #f91763;;
+
+.logo{
+  background-color: #f91763;
+  padding: 0;
+  
 }
+
+.barrenavigation{
+  width: 100%;
+
+
+}
+
+.icon{
+  color: #f91763;
+ 
+}
+
+.btn{
+  border-color: #f91763;
+}
+
+
+
+.images{
+  position: relative;
+}
+
+.container{
+  position: relative;
+}
+
+.container .text{
+  position: absolute;
+  color: #ffffff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text{
+  font-size:xx-large;
+  background-color: #f91762a4;
+  border-radius: 18%;
+  font-weight: bold;
+}
+
+.logo .shape{
+  border-radius: 18%;
+}
+

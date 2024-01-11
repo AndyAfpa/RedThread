@@ -1,0 +1,163 @@
+
+
+.container-fluid{
+    background-color: #f91763;
+  }
+  
+  .navbar-toggler{
+    background-color: rgb(255, 251, 238);
+  }
+  
+  .nav-item{
+    text-align: center;
+  }
+  
+  
+  .nav-link{
+    color: rgb(255, 251, 238);
+  }
+  
+  .parallax {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images_the_district/Pizza/fleurs-multicolores-ornent-ancienne-cour-francaise-au-crepuscule-generees-par-ia.jpg'); /* Remplacez par le chemin de votre image de parallaxe */
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+  .parallax-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  #categorie {
+    /* Ajoutez d'autres styles spécifiques à votre image si nécessaire */
+    opacity: 1;
+    border-radius: 18%;
+    border: solid #f91763;
+    margin-top: 5%;
+    padding: 0;
+  
+  }
+  
+  
+  
+  #plats{
+  opacity: 1;
+  border-radius: 18%;
+  border: solid #f91763;
+  padding: 0;
+  
+  }
+  
+  .couleurtexte{
+    color: white;
+    background-color: #f91763;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    height: 5%;
+  }
+  
+  
+  .logo{
+    background-color: #f91763;
+    padding: 0;
+    
+  }
+  
+  .barrenavigation{
+    width: 100%;
+  
+  
+  }
+  
+  .icon{
+    color: #f91763;
+   
+  }
+   
+.panier{
+    background-color: #f91763;
+    color: #ffffff;
+
+
+}
+  
+  
+  .images{
+    position: relative;
+  }
+  
+  .container{
+    position: relative;
+  }
+  
+  .container .text{
+    position: absolute;
+    color: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text{
+    font-size:xx-large;
+    background-color: #f91762a4;
+    border-radius: 18%;
+    font-weight: bold;
+  }
+  
+  .logo .shape{
+    border-radius: 18%;
+  }
+
+  .card{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    font-weight: bold;
+
+
+   
+  }
+
+  .img-thumbnail{
+  background-color: #f91763;
+  padding: 1%;
+  border-color: #f91763;
+
+  }
+
+  .btnsearch{
+   border-color: #f91763;
+   
+  }
+
+  .btnsearch:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+    border-color: #f91763;
+
+  }

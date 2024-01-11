@@ -13,25 +13,28 @@
 
 
 
-<body class="bg-black">
+<body class="bg-black body">
 
 
 <header>
 
-  <!--Logo Barre de navigation-->
+                                                                     <!--Logo Barre de navigation-->
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
 
-    <div class="container-fluid p-0">
+    <div class=" container-fluid p-0">
       <img src="images_the_district/the_district_brand/logo_transparent.png" alt="Logo" class="col-4 col-md-2 col-lg-2">
       
 
-      <!--Menu Hamburger (= 3 traits déroulant)-->
+                                                                <!--Menu Hamburger (= 3 traits déroulant)-->
+
       <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!--Ma liste pour mon burger(=3 trait déroulant)-->
+                                                             <!--Ma liste pour mon burger(=3 trait déroulant)-->
+
 
       <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -73,70 +76,120 @@
 
 </header>
 
+
+                                                                  <!-- Parallax -->
 <div class="parallax">
   <div class="parallax-content">
-    <div class="container p-0 ">
-
-      <div class="row justify-content-center col-12 m-0 ">
-
-          
-          <img id="categorie" src="catégorie/AsianFood.jpg" alt="AsianFood" class="img-thumbnail   col-sm-12 w-75  d-md-none" >
-          <img id="categoriemd" src="catégorie/AsianFood.jpg" alt="AsianFood" class="img-thumbnail   col-md-5 d-none d-md-flex d-lg-none ">
-          <img id="categorielg" src="catégorie/AsianFood.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
+    <div class="container p-0 m-0 ">
 
 
-          <img id="categorie" src="catégorie/Burger.jpg" alt="AsianFood" class="img-thumbnail col-sm-12 d-md-none  w-75  " >
-          <img id="categoriemd" src="catégorie/Burger.jpg" alt="AsianFood" class="img-thumbnail col-md-5 d-none d-md-flex d-lg-none   " >
-          <img id="categorielg" src="catégorie/Burger.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
+<div class=" mt-3 m-0  d-flex justify-content-center barrenavigation">
 
-          <img id="categorie" src="catégorie/PAsta.jpg" alt="AsianFood" class="img-thumbnail col-sm-12 d-md-none w-75  " >
-          <img id="categoriemd" src="catégorie/PAsta.jpg" alt="AsianFood" class="img-thumbnail col-md-5 d-none d-md-flex d-lg-none " >
-          <img id="categorielg" src="catégorie/PAsta.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
+  <form class="d-flex justify-content-center d-none d-lg-flex  w-100 mb-5 mt-5   " role="search">
 
-          <img id="categorie" src="catégorie/Pizza.jpg" alt="AsianFood" class="img-thumbnail col-sm-12 d-md-none w-75 " >
-          <img id="categoriemd" src="catégorie/Pizza.jpg" alt="AsianFood" class="img-thumbnail col-md-5 d-none d-md-flex d-lg-none  " >
-          <img id="categorielg" src="catégorie/Pizza.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
+    <input class="form-control recherche" type="search" placeholder="Search" aria-label="Search" >
 
-          <img id="categorie" src="catégorie/Salade.jpg" alt="AsianFood" class="img-thumbnail col-sm-12 d-md-none w-75 " >
-          <img id="categoriemd" src="catégorie/Salade.jpg" alt="AsianFood" class="img-thumbnail col-md-5 d-none d-md-flex d-lg-none " >
-          <img id="categorielg" src="catégorie/Salade.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
 
-          <img id="categorie" src="catégorie/Sandwich.jpg" alt="AsianFood" class="img-thumbnail col-sm-12  d-md-none w-75 " >
-          <img id="categoriemd" src="catégorie/Sandwich.jpg" alt="AsianFood" class="img-thumbnail col-md-5 d-none d-md-flex d-lg-none  " >
-          <img id="categorielg" src="catégorie/Sandwich.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
 
-          <img id="plat" src="plats/assiette-brochettes-agneau-aux-legumes-bol-sauce-rouge.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
-          <img id="plat" src="plats/delicieux-saumon-servi-herbes.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
-          <img id="plat" src="plats/vue-laterale-viande-frite-frites-du-ketchup.jpg" alt="AsianFood" class="img-thumbnail   col-lg-3 d-none d-lg-flex d-md-none d-sm-none ">
+      <button class="btn btn-outline-success" type="submit"> 
 
-      </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+      </button>
+
+    </form>
+
+
+
+</div>
+
+
+
+                                                              <!-- Image Catégorie -->
+      <div class="row  col-12  m-0 p-0 ">
+
+
+          <div class="col-12  col-md-6 col-lg-4 ">
+            <a href="#" class=" d-flex justify-content-center "><img id="categorie" src="catégorie/AsianFood.jpg" alt="AsianFood" class="img-thumbnail    w-75 " ></a>
+              </div>
+
+          <div class="col-12  col-md-6 col-lg-4 ">
+            <a href="#" class=" d-flex justify-content-center  "><img id="categorie" src="catégorie/Burger.jpg" alt="BurgerFood" class="img-thumbnail   w-75  " ></a>
+              </div>
+
+          <div class="col-12  col-md-6 col-lg-4">
+            <a href="#" class=" d-flex justify-content-center  "><img id="categorie" src="catégorie/PAsta.jpg" alt="PastaFood" class="img-thumbnail w-75"></a>
+              </div>
+
+          <div class="col-12  col-md-6 col-lg-4 mb-lg-5 ">
+            <a href="#" class=" d-flex justify-content-center  "><img id="categorie" src="catégorie/Pizza.jpg" alt="PizzaFood" class="img-thumbnail w-75"></a>
+              </div>
+
+          <div class="col-12  mb-4 col-md-6 col-lg-4 mb-lg-5 ">
+            <a href="#" class=" d-flex justify-content-center  "><img id="categorie" src="catégorie/Salade.jpg" alt="SaladeFood" class="img-thumbnail w-75"></a>
+              </div>
+
+          <div class="col-12 mb-4 col-md-6 col-lg-4 mb-lg-5 ">
+            <a href="#" class=" d-flex justify-content-center  "><img id="categorie" src="catégorie/Sandwich.jpg" alt="SandwichFood" class="img-thumbnail w-75"></a>
+              </div>
+
+      </div> 
+
+
+
+
+
+
+                                                                    <!-- Image Plats -->
+      <div class=" row col-12   ">
+
+        <div class="  col-12 col-lg-4 d-flex  ">
+        <a href="#" class=" d-none d-lg-flex justify-content-center mb-5 "><img id="plats" src="plats/assiette-brochettes-agneau-aux-legumes-bol-sauce-rouge.jpg" alt="plats1" class="img-thumbnail    w-100 " ></a>
+        </div>
+
+        <div class="  col-12 col-lg-4 d-flex   ">
+        <a href="#" class=" d-none d-lg-flex  justify-content-center mb-5  "><img id="plats" src="plats/delicieux-saumon-servi-herbes.jpg" alt="plats1" class="img-thumbnail    w-100 " ></a>
+        </div>
+
+        <div class="  col-12 col-lg-4 d-flex   ">
+        <a href="#" class="  d-none d-lg-flex  justify-content-center mb-5  "><img id="plats" src="plats/vue-laterale-viande-frite-frites-du-ketchup.jpg" alt="plats1" class="img-thumbnail    w-100 " ></a>
+        </div>
+
     </div>
   </div>
 </div>
-
-</body>
-
+</div>
 
 
 
 
 
+                                                                 <!-- Réseaux sociaux -->
+<footer class="col-12 ">
 
 
+          <div class="logo d-flex justify-content-around container-fluid ">
 
+              <div class="col-3 col-md-2 col-lg-1  ">
+                <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid  ">
+                  </div>
 
+                  <div class="col-3 col-md-2  col-lg-1 ">
+                    <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid ">
+                      </div>
 
+                      <div class="col-3 col-md-2 col-lg-1 ">
+                        <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid ">
+                          </div>
 
+          </div>
+</footer>
 
+    
 
-
-
-
-
-
-
-
-
+        
 
 
 

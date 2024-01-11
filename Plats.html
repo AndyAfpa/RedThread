@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="plats.css">
+  <title>Plats</title>
+</head>
+
+
+
+
+<body class="bg-black">
+
+
+  <header>
+
+    <!--Logo Barre de navigation-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+
+      <div class="container-fluid p-0">
+        <img src="images_the_district/the_district_brand/logo_transparent.png" alt="Logo"
+          class="col-4 col-md-2 col-lg-2">
+
+
+        <!--Menu Hamburger (= 3 traits déroulant)-->
+
+        <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Ma liste pour mon burger(=3 trait déroulant)-->
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav col-12 d-flex align-items-center">
+
+            <li class="nav-item col-12 col-md-3">
+
+              <a class="nav-link fs-5 d-md-none" href="#">Accueil</a>
+              <a class="nav-link fs-2 d-none d-md-block" href="#">Accueil</a>
+
+            </li>
+
+            <li class="nav-item col-12 col-md-3">
+
+              <a class="nav-link fs-5 d-md-none" aria-current="page" href="#">Categories</a>
+              <a class="nav-link fs-2 d-none d-md-block" aria-current="page" href="#">Categories</a>
+
+            </li>
+
+            <li class="nav-item col-12 col-md-3">
+
+              <a class="nav-link fs-5 d-md-none" href="#">Tous les plats</a>
+              <a class="nav-link fs-2 d-none d-md-block" href="#">Tous les plats</a>
+
+            </li>
+
+            <li class="nav-item col-12 col-md-3">
+
+              <a class="nav-link fs-5 d-md-none" href="#">Contact</a>
+              <a class="nav-link fs-2 d-none d-md-block" href="#">Contact</a>
+
+            </li>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- Parallax -->
+  <div class="parallax">
+    <div class="parallax-content">
+      <div class="container p-0 m-0 ">
+
+
+
+        <!-- Barre de recherche -->
+
+
+
+        <div class=" mt-3 m-0  d-flex justify-content-center barrenavigation">
+
+          <form class="d-flex justify-content-center d-none d-lg-flex  w-100 mb-5 mt-5   " role="search">
+
+            <input class="form-control recherche" type="search" placeholder="Search" aria-label="Search">
+
+
+
+            <button class="btn btn-outline-success btnsearch " type="submit">
+
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search icon" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+              </svg>
+            </button>
+
+          </form>
+
+        </div>
+
+        <!-- Carte repas -->
+
+        <div class="card-group">
+
+
+          <div class="card m-4 ">
+            <img src="images_the_district/Pizza/delicieuse-pizza-interieur.jpg" class="img-thumbnail  card-img-top max-width: 540px;  " alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Hula-PiZZa</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text">Une danse exotique de saveurs, avec une touche d'ananas qui vous fait twister le palais ! </p>
+
+            </div>
+
+                <div class="bouton d-flex justify-content-end ">
+                <a href="#" class="btn d-flex mb-3 m-3  panier  ">Ajouter au panier</a>
+                </div>
+            
+          </div>
+
+
+          <div class="card m-4  ">
+            <img src="images_the_district/Pizza/gros-plan-delicieuse-pizza(1).jpg" class="img-thumbnail  card-img-top max-width: 540px;  " alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Choriz-Comique</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text">Parce que chaque bouchée est une blague épicée ! </p>
+            </div>
+              <div class="bouton d-flex justify-content-end ">
+              <a href="#" class="btn d-flex mb-3 m-3  panier   ">Ajouter au panier</a>
+            </div>
+           
+          </div>
+
+
+          <div class="card m-4 ">
+            <img src="images_the_district/Pizza/gros-plan-delicieuse-pizza(2).jpg" class="img-thumbnail  card-img-top max-width: 540px;  " alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Bolo-Mozza Mania</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text">Quand la sauce bolognaise et le fromage font le tango sur une croûte craquante ! </p>
+              </div>
+                <div class="bouton d-flex justify-content-end ">
+            <a href="#" class="btn d-flex mb-3 m-3 panier    ">Ajouter au panier</a>
+            </div>
+            </div>
+         
+        </div>
+
+        <div class="card-group">
+
+
+          <div class="card m-4 ">
+            <img src="images_the_district/Pizza/gros-plan-delicieuse-pizza(3).jpg" class="img-thumbnail  card-img-top max-width: 540px; " alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Mélodie du Potager</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text">Une symphonie de saveurs végétales avec un mix envoûtant de fromage, d'olives, de poivrons et de champignons !</p>
+            </div>
+              <div class="bouton d-flex justify-content-end ">
+            <a href="#" class="btn d-flex mb-3 m-3  panier ">Ajouter au panier</a>
+            </div>
+          
+          </div>
+
+
+          <div class="card m-4 ">
+            <img src="images_the_district/Pizza/gros-plan-delicieuse-pizza(4).jpg" class="img-thumbnail  card-img-top max-width: 540px;" alt="...">
+            <div class="card-body ">
+              <h4 class="card-title">Sunrise Pizzarella</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text ">Une aube de délices avec du fromage fondant, de la tomate juteuse, un œuf ensoleillé et une pluie de basilic frais !</p>
+            </div>
+              <div class="bouton d-flex justify-content-end  ">
+            <a href="#" class="btn d-flex mb-3 m-3 panier ">Ajouter au panier</a>
+              </div>
+           
+          </div>
+
+
+          <div class="card m-4 ">
+            <img src="images_the_district/Pizza/gros-plan-delicieuse-pizza.jpg" class="img-thumbnail     card-img-top max-width: 540px; " alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Basilico Bliss</h4>
+              <h5 class="title-sub">15$</h5>
+              <hr>
+              <p class="card-text">Une escapade italienne avec la simplicité parfaite de la mozzarella et la fraîcheur du basilic sur une croûte croustillante !</p>
+            </div>
+              <div class="bouton d-flex justify-content-end  ">
+                <a href="#" class="btn d-flex mb-3 m-3 panier ">Ajouter au panier</a>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
+
+        <!-- Réseaux sociaux -->
+        <footer class="col-12 ">
+
+
+          <div class="logo d-flex justify-content-around container-fluid ">
+
+            <div class="col-3 col-md-2 col-lg-1   ">
+              <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid shape ">
+            </div>
+
+            <div class="col-3 col-md-2  col-lg-1  ">
+              <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid shape">
+            </div>
+
+            <div class="col-3 col-md-2 col-lg-1  ">
+              <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="img-fluid shape">
+            </div>
+
+          </div>
+        </footer>
+
+
+
+
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="animation.js"></script>
+</body>
+
+</html>
