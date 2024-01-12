@@ -161,3 +161,43 @@
     border-color: #f91763;
 
   }
+
+
+hr{
+  color: #f91763;
+}
+
+.texttitle{
+  color: #f91763;
+  font-weight: 800;
+}
+
+fieldset{
+  background-color: #00000063;
+  color: #f91763;
+  font-weight: 800;
+}
+
+label{
+  color: #f91763;
+  font-weight: 800;
+}
+
+input{
+ width: 30%;
+ background-color: #f9176221;
+
+}
+
+textarea{
+  background-color: #f9176221;
+}
+
+::placeholder{
+  color: #ffffff;
+  font-weight: 800;
+}
+
+#adresse, #nom ,#prenom ,#telephone ,#email{
+  color: #ffffff;
+}
